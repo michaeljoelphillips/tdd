@@ -1,0 +1,24 @@
+{
+    "name": "michaeljoelphillips/tdd",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^9.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "AcmeBank\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AcmeBank\\Test\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Michael Phillips",
+            "email": "michaeljoelphillips@gmail.com"
+        }
+    ],
+    "require": {}
+}
